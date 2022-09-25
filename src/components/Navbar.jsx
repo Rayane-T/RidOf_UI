@@ -1,18 +1,18 @@
-import React from "react"
-import { NavLink } from "react-router-dom"
+import React from 'react';
+import { NavLink } from "react-router-dom";
+import Logo from '../images/White_logo_fixed.svg'
 export default function Navbar(){
     return (
-    <nav>
-        <div class="nav-wrapper teal lighten-2">
-        <NavLink to ="/">
-            <img src="https://s4.aconvert.com/convert/p3r68-cdx67/aq1zd-zqnq5.svg" alt = "main logo"height="70" width="100"/> 
-        </NavLink>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <nav class="navbar">
+            <NavLink to="/"><img src={Logo} class = "logo" alt="Logo" height="60" width="120" /></NavLink>
+        <ul class="nav-links">
+        <div class="menu">
             <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/GetStarted">Try it Now</NavLink></li>
-            <li><NavLink to="/FAQ">FAQ</NavLink></li>
+            <li><NavLink to="/">Try it Now!</NavLink></li>
+            <li class="services"><NavLink to="/">FAQ</NavLink>
+            </li>
+          </div>
         </ul>
-        </div>
-    </nav>
+      </nav>
     )
 }
