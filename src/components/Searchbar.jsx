@@ -3,7 +3,8 @@ import { HiSearch } from "react-icons/hi"
 
 const Searchbar = () => {
     const [data, setData] = useState('');
-    
+    const [items, setItems] = useState('');
+
 
     const SearchItem = async () =>  {
         const response = await fetch("http://127.0.1:5000/items", {
@@ -15,8 +16,7 @@ const Searchbar = () => {
             body: JSON.stringify({data: [data]})
         });
         const content = await response.json();
-        console.log(content);
-        setData("")
+        setItems(JSON.stringify(content.data))
     }
 
     return (
@@ -25,6 +25,7 @@ const Searchbar = () => {
                 <input type="text" placeholder="Search.." name="data" onChange={(e) => setData(e.target.value)}/>
                 <button className = "container-button" onClick={() => SearchItem()}><HiSearch/></button>
              </div>
+             <pre>{items}</pre>
         </section>
     )
 }
