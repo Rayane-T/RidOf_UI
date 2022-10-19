@@ -1,10 +1,10 @@
-# Rid Of ♻️ — an educational application aimed at simplifying the process of recycling trash in your daily life.
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/82381064/196821893-8c0e6341-5a60-41f5-a4d4-3a530ec55570.png" height="200px>
-</p></br>
+<h1>Rid Of ♻️ — an educational application aimed at simplifying the process of recycling trash in your daily life.</h1>
 
-.
-## Additional Info
+![Ridof](https://user-images.githubusercontent.com/82381064/196823050-8fdee47b-6c70-4147-a301-0b7a4f5360f4.png)
+
+
+
+<p>
 Backend repo : https://github.com/AdrienCastelbou/RidOf-backend </br>
 Developed during //Slash Hack '22
-
+</p>
