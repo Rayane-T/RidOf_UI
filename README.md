@@ -2,7 +2,7 @@
 ![Ridof](https://user-images.githubusercontent.com/82381064/196821893-8c0e6341-5a60-41f5-a4d4-3a530ec55570.png)
 
 
-Back end repo :https://github.com/AdrienCastelbou/RidOf-backend
-
+## Additional Info
+Backend repo : https://github.com/AdrienCastelbou/RidOf-backend </br>
 Developed during //Slash Hack '22
 
