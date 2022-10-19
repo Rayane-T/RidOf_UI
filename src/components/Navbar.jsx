@@ -9,9 +9,8 @@ export default function Navbar(){
         <div class="menu">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/">Try it Now!</NavLink></li>
-            <li class="services"><NavLink to="/">FAQ</NavLink>
-            </li>
-          </div>
+            <li class="services"><NavLink to="/">FAQ</NavLink></li>
+        </div>
         </ul>
       </nav>
     )
